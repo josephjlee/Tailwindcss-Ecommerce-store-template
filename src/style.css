@@ -3,3 +3,7 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.hero_heading {
+    left: 47.5%;
+}

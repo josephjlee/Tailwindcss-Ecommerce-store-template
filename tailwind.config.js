@@ -9,9 +9,16 @@ module.exports = {
       'md': '768px',
       'lg': '1024px',
       'xl': '1280px',
-      'xxl': '1590',
+      'xxl': '1590px',
     },
-    extend: {},
+    extend: {
+      fontSize: {
+        "8xl": "6rem"
+      },
+      spacing: {
+        '144': '26rem' 
+      }
+    },
   },
   variants: {},
   plugins: [],
