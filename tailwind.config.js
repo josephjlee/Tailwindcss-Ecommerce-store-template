@@ -1,6 +1,9 @@
 module.exports = {
   purge: [],
   theme: {
+    fontFamily: {
+      gotham: ["Gotham Pro", "sans-serif"]
+    },
     screens: {
       'sm': '640px',
       'md': '768px',
