@@ -22452,13 +22452,36 @@ video {
   left: 35rem;
 }
 
+body {
+  height: 4000px;
+}
+
 .slider-dot .bt {
-  font-size: 7px;
+  font-size: 10px;
   width: 20px;
   height: 20px;
-  color: red;
-  background: red;
+  color: rgb(68, 67, 67);
+  background: rgb(68, 67, 67);
   border-radius: 50%;
+}
+
+.upto {
+  position: relative;
+}
+
+.upto:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1rem;
+  height: 4px;
+  width: 80%;
+  background: rgb(214, 98, 98);
+}
+
+.sub-menu {
+  max-height: 0;
+  overflow: hidden;
 }
 
 @media (min-width: 640px) {
@@ -131409,4 +131432,4 @@ video {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
   }
-} 
+}
