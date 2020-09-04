@@ -22489,6 +22489,40 @@ body {
   max-height: 0;
 }
 
+.box-1 {
+  position: relative;
+  height: 28rem;
+}
+
+.box-1 img {
+  position: absolute;
+  top: -5rem;
+}
+
+.box-4 {
+  position: relative;
+  height: 22rem;
+  margin-top: 18rem;
+}
+
+.box-4 img {
+  position: absolute;
+  top: -14rem;
+  left: 15%;
+}
+
+.box-5 {
+  position: relative;
+  height: 12rem;
+  width: 100%;
+  margin-bottom: 12rem;
+}
+
+.box-5 img {
+  position: absolute;
+  bottom: -8rem;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
