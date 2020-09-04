@@ -38,7 +38,13 @@ body {
     background: rgb(214, 98, 98);
 }
 
+
+.menu-trigger.is-open + .sub-menu {
+    overflow: visible;
+    max-height: 100%;
+}
+
 .sub-menu {
-    max-height: 0;
     overflow: hidden;
+    max-height: 0;
 }
