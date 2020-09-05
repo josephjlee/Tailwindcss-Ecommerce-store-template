@@ -7,7 +7,7 @@
     
     <title>Document</title>
 </head>
-<body class="font-gotham px-20">
+<body class="font-gotham ">
     <nav class="container mx-auto flex items-center justify-between py-8">
         <div>
             <h1 class="text-xl">EcomStore</h1>
@@ -139,6 +139,40 @@
             </div>
         </div>
     </section>
+
+    <section class="flex w-11/12 ml-auto">
+        <div class="bg-red-600 w-2/5 p-24">
+            <div class="w-56">
+                <h4 class="text-white text-3xl font-medium">Special</h4>
+                <h3 class="text-white font-medium text-5xl leading-tight border-b-4 border-white pb-4">Offer</h3>
+                <p class="text-white py-4">Subscribe to mail list <br>and get 15% off on first order</p>
+            </div>
+            <div class="mt-8">
+                <form action="">
+                    <div class="mb-4">
+                        <input class="bg-red-700 text-white text-sm placeholder-white w-full p-4 outline-none focus:bg-red-400" type="text" placeholder="Name">
+                    </div>
+                    <div class="mb-4">
+                        <input class="bg-red-700 text-white text-sm placeholder-white w-full p-4 outline-none focus:bg-red-400" type="text" placeholder="Email">
+                    </div>
+                    <div>
+                        <button class="bg-black text-sm text-white w-full p-4 uppercase tracking-wide hover:bg-gray-900 focus:outline-none" type="submit">Subscribe Now</button>
+                    </div>
+                    <div class="flex mt-3">
+                        <div>
+                            <input type="checkbox" id="check" checked class="agree_checkbox">
+                            <label for="check"></label>
+                        </div>
+                        <div class="ml-3 text-white text-sm font-thin ">By clickking Subscribe, you agree to our terms and <a class="text-yellow-500" href="">Privecy policy</a></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="w-3/5">
+            <img src="./images/cosmetics-tools.png" alt="">
+        </div>
+    </section>
+
     <script src="./js/app.js"></script>
 </body>
 </html>
